@@ -24,7 +24,9 @@
       font-weight: normal;
       font-style: normal;
       }
-
+      a:hover img {   
+        opacity: 0.5;
+      }
 
       html {
         box-sizing: border-box;
@@ -44,7 +46,7 @@
       .header {
         display: flex;
         justify-content: space-between;
-        height: 88px;
+        height: 8.8rem;
         gap: 0px;
         align-items: center;
         background: rgba(255, 255, 255, 1);
@@ -125,7 +127,7 @@
         line-height: 24px;
         letter-spacing: -0.20000000298023224px;
         text-align: left;
-        padding: 8px 16.54px;
+        padding: 8px 16.2px;
         border-radius: 3px;
         color: rgba(126, 126, 130, 1);
 
