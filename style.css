@@ -202,7 +202,7 @@ button:hover {
         text-align: left;
         color: rgba(27, 28, 33, 1);
         margin-bottom: 24px;
-        font-weight: 700;
+        font-weight: 200;
     }
 
     .title::before {
@@ -266,10 +266,11 @@ button:hover {
         font-family: 'TT Lakes Medium', sans-serif;
         font-size: 16px;
         line-height: 24px;
-        letter-spacing: -0.20000000298023224px;
+        letter-spacing: -0.2px;
         text-align: left;
         display: inline-flex;
         align-items: center;
+        font-weight: 500;
     }
     .link-image {
         margin-right: 8px;
@@ -351,7 +352,8 @@ button:hover {
     }
 
     .content__text {
-        display: block;
+        display: flex;
+        width: 100%;
     }
 
     .content {
@@ -363,7 +365,7 @@ button:hover {
         flex: 1;
         justify-content: space-between;
         margin-left: 8px;
-        max-width: 360px;
+        max-width: 45vw;
         max-height: 208px;
         font-family: 'TT Lakes Regular', sans-serif;
         font-size: 14px;
@@ -380,6 +382,7 @@ button:hover {
 
     .position {
         margin-left: 0;
+        padding-right: 25px
     }
 
     .content__img {
@@ -426,7 +429,7 @@ button:hover {
     font-family: 'TT Lakes Medium', sans-serif;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: -0.20000000298023224px;
+    letter-spacing: -0.2px;
     text-align: left;
     color: rgba(27, 28, 33, 1);
     font-weight: 600;
@@ -443,6 +446,13 @@ button:hover {
 
 .main__nav-list {
     margin-top: 8px;
+}
+
+.conteiner-text {
+    max-width: 48vw;
+}
+.position {
+    padding-right: 29px;
 }
 
 .content__text-extra {
