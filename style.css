@@ -84,6 +84,7 @@ body {
     overflow-x: hidden;
     height: 100vh;
     margin: 0 auto;
+    background: rgba(248, 248, 248, 1);
 }
 
 a:visited, a:link, a:active {
@@ -397,6 +398,8 @@ button:hover {
 }
 
 @media (min-width: 1120px) {
+
+
     .header {
         display: none;
     }
@@ -440,6 +443,10 @@ button:hover {
 
 .main__nav-list {
     margin-top: 8px;
+}
+
+.content__text-extra {
+    display: none;
 }
 
 }
