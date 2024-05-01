@@ -30,7 +30,10 @@
 
 
 
-h1, p {
+.title,
+.content__text,
+.content__text-extra,
+.content__text-extra1 {
     margin: 0;
     padding: 0;
 }
@@ -44,7 +47,8 @@ html {
     transition: .2s ease-in-out;
   }
 
-button {
+.icon,
+.nav-list__btn {
     border: none;
     background-color: transparent;
     padding: 0;
@@ -52,21 +56,29 @@ button {
     cursor: pointer;
 }
 
-ul {
+.title__button {
+    padding: 8px 16px;
+    border: 0;
+    white-space: nowrap;
+    text-align: left;
+}
+.main__nav-list,
+.header__right-list {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-li {
+.nav-list__item,
+.header__items {
     list-style: none;
 }
 
-a{
+.content__link {
     text-decoration: none;
   }
 
-header {
+.header {
     background: rgba(255, 255, 255, 1);
 
 }
@@ -87,17 +99,19 @@ body {
     background: rgba(248, 248, 248, 1);
 }
 
-a:visited, a:link, a:active {
+.content__link:visited, 
+.content__link:link,
+.content__link:active {
     color: inherit;
   }
 
-.icon:hover {
+.icon:hover,
+.content__link:hover,
+.nav-list__btn:hover {
     opacity: 0.5;
 }
 
-button:hover {
-    opacity: 0.5;
-}
+
   
  
  /* отключаем phone, chat, profile */
@@ -122,6 +136,10 @@ button:hover {
 }
                                                 /* 320 PX */
 @media screen and (min-width: 320px) {
+
+    .logo {
+        height: 50.81px;
+    }
    
 
     .header {
@@ -134,8 +152,7 @@ button:hover {
         padding-left: 16px;
         padding-bottom: 18px;
         border-bottom: 1px solid #D9FFF5;
-        
-    
+
     }
 
     .header__left {
@@ -294,11 +311,11 @@ button:hover {
 
                                     /* 768 PX */
 @media (min-width: 768px) {
-    .header {
-        padding-left: 24px;
-        padding-right: 24px;
-    }
     
+
+    .header {
+        padding: 19px 24px;
+    }
     .repair::before {
         right: 140px;
     }
@@ -349,6 +366,9 @@ button:hover {
     .main__nav-list {
         margin-left: 8px;
         margin-bottom: 32px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        
     }
 
     .content__text {

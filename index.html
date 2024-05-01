@@ -11,46 +11,40 @@
 <body>
     <header class="header">
         <div class="header__left">
-            <nav class="menu">
                 <button class="burger icon" type="button">
                     <img src="images/icons/burger.svg" alt="Всплывающее меню">
                 </button>
-            </nav>
             <a class="logo" href="#">
                 <img src="images/icons/Group.svg" alt="Логотип">
             </a>
         </div>
-        <div class="header__right">
-            <nav class="right-menu">
-                <ul class="header__right-list">
-                    <li class="header__items">
-                        <button class="phone icon">
-                            <img src="images/icons/call.svg" alt="Позвонить">
-                        </button>
-                    </li>
-                    <li class="header__items">
-                        <button class="chat icon">
-                            <img src="images/icons/chat.svg" alt="Статус ремонта">
-                        </button>
-                    </li>
-                    <li class="header__items">
-                        <button class="profile icon">
-                            <img src="images/icons/profile.svg" alt="Статус ремонта">
-                        </button>
-                    </li>
-                    <li class="header__items">
-                        <button class="repair icon">
-                            <img src="images/icons/repair.svg" alt="Оставить заявку">
-                        </button>
-                    </li>
-                    <li class="header__items">
-                        <button class="checkstatus icon">
-                            <img src="images/icons/checkstatus.svg" alt="Статус ремонта">
-                        </button>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <ul class="header__right-list">
+                <li class="header__items">
+                    <button class="phone icon">
+                        <img src="images/icons/call.svg" alt="Позвонить">
+                    </button>
+                </li>
+                <li class="header__items">
+                    <button class="chat icon">
+                        <img src="images/icons/chat.svg" alt="Статус ремонта">
+                    </button>
+                </li>
+                <li class="header__items">
+                    <button class="profile icon">
+                        <img src="images/icons/profile.svg" alt="Статус ремонта">
+                    </button>
+                </li>
+                <li class="header__items">
+                    <button class="repair icon">
+                        <img src="images/icons/repair.svg" alt="Оставить заявку">
+                    </button>
+                </li>
+                <li class="header__items">
+                    <button class="checkstatus icon">
+                        <img src="images/icons/checkstatus.svg" alt="Статус ремонта">
+                    </button>
+                </li>
+            </ul>
     </header>
     <main class="main"> 
         <section class="section main__section">
@@ -59,10 +53,10 @@
                 Услуги и сервисы
                 </h1>
                 <div class="buttons">
-                    <label for="repair-svg" class="title__button button1 nav-list__btn">Оставить заявку</label>
-                    <a name="repair-svg"href="#"><img src="images/icons/repair.svg"></a>
-                    <label for="checkstatus-svg" class="title__button button2 nav-list__btn">Статус ремонта</label>
-                    <a name="checkstatus-svg"href="#"><img src="images/icons/checkstatus.svg"></a>
+                    <label for="repair-svg" class="title__button button1">Оставить заявку</label>
+                    <button class="icon" type="button" name="repair-svg"href="#"><img src="images/icons/repair.svg"></button>
+                    <label for="checkstatus-svg" class="title__button button2">Статус ремонта</label>
+                    <button class="icon" type="button" name="checkstatus-svg"href="#"><img src="images/icons/checkstatus.svg"></button>
                 </div>
             </div>
 
