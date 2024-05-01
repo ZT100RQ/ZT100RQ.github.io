@@ -366,8 +366,7 @@ body {
     .main__nav-list {
         margin-left: 8px;
         margin-bottom: 32px;
-        overflow: hidden;
-        flex-wrap: wrap;
+        
         
     }
 
@@ -466,6 +465,8 @@ body {
 
 .main__nav-list {
     margin-top: 8px;
+    overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .conteiner-text {
