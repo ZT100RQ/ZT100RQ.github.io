@@ -218,7 +218,6 @@ body {
         letter-spacing: -0.6000000238418579px;
         text-align: left;
         color: rgba(27, 28, 33, 1);
-        margin-bottom: 24px;
         font-weight: 200;
     }
 
@@ -239,6 +238,7 @@ body {
         display: flex;
         overflow-x: auto;
         margin-bottom: 24px;
+        margin-top: 24px;
 
     }
     
@@ -373,18 +373,19 @@ body {
     .content__text {
         display: flex;
         width: 100%;
+        padding-right: 0px;
     }
 
     .content {
         display: flex;
+        justify-content: space-between;
     }
     
 
     .conteiner-text {
         flex: 1;
-        justify-content: space-between;
         margin-left: 8px;
-        max-width: 45vw;
+        max-width: 36vw;
         max-height: 208px;
         font-family: 'TT Lakes Regular', sans-serif;
         font-size: 14px;
@@ -400,7 +401,7 @@ body {
     }
 
     .position {
-        margin-left: 0;
+        margin-left: 48px;
         padding-right: 25px
     }
 
@@ -465,8 +466,9 @@ body {
 
 .main__nav-list {
     margin-top: 8px;
-    overflow: hidden;
+    overflow: hidden;  /* Отключил скролл на десктопе, если добавить лишнюю кнопку как на макете - то всё работаает*/
     flex-wrap: wrap;
+    margin-bottom: 7px;
 }
 
 .conteiner-text {
@@ -474,6 +476,7 @@ body {
 }
 .position {
     padding-right: 29px;
+    margin-left: 36px;
 }
 
 .content__text-extra {
